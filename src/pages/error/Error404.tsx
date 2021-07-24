@@ -1,11 +1,10 @@
 import { Typography } from '@material-ui/core';
-import ErrorIcon from '@material-ui/icons/Error';
-
-export default () => {
+const Error404 =() => {
     return (
         <>
-        <Typography variant="h1" align="center">404</Typography>
-        <Typography variant="h3" align="center">Page not found</Typography>
+        <Typography variant="h2" align="center">404</Typography>
+        <Typography variant="h4" align="center">Page not found</Typography>
         </>
     )
-}
+};
+export default Error404;
