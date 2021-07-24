@@ -6,13 +6,14 @@ import {
     Link
   } from "react-router-dom";
 import {Helmet} from "react-helmet";
+import Error404 from './pages/error/Error404';
 
 function App() {
 
-  const Path = (props: {children?: React.ReactNode, title: string, path: string})=>
-    <Route path={props.path}>
+  const Path = (props: {children?: React.ReactNode, title: string, path: string, exact?:boolean})=>
+    <Route path={props.path} exact={props.exact}>
         <Helmet>
-            {props.title}
+            <title>{props.title}</title>
         </Helmet>
         {props.children}
     </Route>
@@ -20,18 +21,18 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Path path="/" title="Wheater Forecasting Service">
-            {/*place for main content*/}
+        <Path exact path="/your-location" title="Wheater in your location">
+            your location
         </Path>
-        <Path path="/your-location" title="Wheater in your location">
-             {/*place for wheater in my location*/}
+        <Route exact path="/location/:city">
+             city
+        </Route>
+        <Path exact path="/" title="Wheater Forecasting Service">
+            main content
         </Path>
-        <Route path="/location/:city">
-             {/*place for wheater in given city*/}
-        </Route>
-        <Route path="*">
-            {/*place for 404 error*/}
-        </Route>
+        <Path path="*" title="404 page not found">
+            <Error404 />
+        </Path>
       </Switch>
   </Router>
   );
