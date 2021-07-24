@@ -5,7 +5,7 @@ import {
 
 interface LookupWeatherCardProps {
     locationLabel: string
-    temp: number
+    temp?: number
     to: string
 }
 
@@ -18,7 +18,7 @@ const LookupWeatherCard = (props: LookupWeatherCardProps) => {
                 <Typography variant="h6" align='left'>{props.locationLabel}</Typography>
             </Grid>
             <Grid item xs={6}>
-                <Typography variant="h6" align='right'>{props.temp.toFixed(0)}°C</Typography>
+                <Typography variant="h6" align='right'>{props.temp?.toFixed(0)??'-'}°C</Typography>
             </Grid>
         </Grid>
         </CardContent>

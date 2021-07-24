@@ -9,7 +9,7 @@ import Alert from '@material-ui/lab/Alert';
 const Dashboard = () => {
     const geo = useGeoLocation();
 
-    const apiKey = process.env.OPENWEATHER_API_KEY;
+    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
     const londonQuery = useQuery<WeatherDataModel>("london-weather", () =>
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`).then(res => res.json()))
@@ -32,13 +32,13 @@ const Dashboard = () => {
         {londonQuery.isError && <Alert severity='error'>Error during fetching temperature data for London</Alert>}
         <Grid container alignItems='center' spacing={3} justifyContent='space-evenly'>
             <Grid item xs={12} lg={4}>
-                {myLocationQuery.isLoading || geo.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="My Location" temp={myLocationQuery.data.main.temp} to='/location' />}
+                {myLocationQuery.isLoading || geo.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="My Location" temp={myLocationQuery?.data?.main?.temp} to='/location' />}
             </Grid>
             <Grid item xs={12} lg={4}>
-                {berlinQuery.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="Berlin" temp={berlinQuery.data.main.temp} to='/location/Berlin' />}
+                {berlinQuery.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="Berlin" temp={berlinQuery?.data?.main?.temp} to='/location/Berlin' />}
             </Grid>
             <Grid item xs={12} lg={4}>
-                {londonQuery.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="London" temp={londonQuery.data.main.temp} to='/location/London' />}
+                {londonQuery.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="London" temp={londonQuery?.data?.main?.temp} to='/location/London' />}
             </Grid>
         </Grid>
     </>)
