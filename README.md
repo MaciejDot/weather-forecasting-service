@@ -1,1 +1,1 @@
-# weatherForecastingService
+# weather-forecasting-service
