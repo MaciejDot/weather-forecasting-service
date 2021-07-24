@@ -18,14 +18,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: npm ci
         run: npm ci
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
       - name: build
         run: npm run build
-      - uses: actions/setup-node@v2
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: build
+      - name: test
         run: npm run test
-          npm test 
