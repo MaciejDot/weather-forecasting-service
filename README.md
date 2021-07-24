@@ -1,8 +1,9 @@
 # weather-forecasting-service
 
+![build](https://github.com/MaciejDot/weather-forecasting-service/actions/workflows/main.yml/badge.svg)
+
 Service for displaying data from Openweather api
 
-## env vars
 ## About The Project
 
 Service for displaying weather data for your Location, Berlin and London using Openweather api
@@ -13,8 +14,8 @@ Service for displaying weather data for your Location, Berlin and London using O
 * [Material-UI](https://material-ui.com)
 * [React-Query](https://react-query.tanstack.com)
 * [React-Helmet](https://github.com/nfl/react-helmet)
-* [Typescript] (https://www.typescriptlang.org)
-* [Jest] (https://jestjs.io)
+* [Typescript](https://www.typescriptlang.org)
+* [Jest](https://jestjs.io)
 
 
 <!-- GETTING STARTED -->
