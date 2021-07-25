@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GeoLocationStatusEnum } from "../enums/GeoLocationStatusEnum";
 
-const geoLocationInitialValues = {
+export const geoLocationInitialValues = {
         status: GeoLocationStatusEnum.Undefined,
         isLoading: true,
         location:{latitude:0, longitude:0 },

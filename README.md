@@ -4,6 +4,7 @@
 ![deploy](https://github.com/MaciejDot/weather-forecasting-service/actions/workflows/deploy.yml/badge.svg)
 
 [Homepage](http://MaciejDot.github.io/weather-forecasting-service)
+
 Service for displaying data from Openweather api
 
 ## About The Project
@@ -20,6 +21,7 @@ Service for displaying weather data for your Location, Berlin and London using O
 * [date-fns](https://date-fns.org)
 * [Jest](https://jestjs.io)
 * [Jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
+* [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library)
 
 <!-- GETTING STARTED -->
 ## Getting Started
