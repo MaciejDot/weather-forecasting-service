@@ -1,6 +1,5 @@
 import React, { useEffect, useMemo } from 'react';
 import {
-    HashRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
@@ -60,7 +59,6 @@ function App() {
             <Paper className={classes.root}>
                 <GeoLocationContext.Provider value={geoLocationContextValues}>
                     <QueryClientProvider client={client}>
-                        <Router basename="/">
                             <Switch>
                                 <Path exact path="/location" title="Weather in my location">
                                     <MyLocationDetails />
@@ -75,7 +73,6 @@ function App() {
                                     <Error404 />
                                 </Path>
                             </Switch>
-                        </Router>
                     </QueryClientProvider>
                 </GeoLocationContext.Provider>
             </Paper>
