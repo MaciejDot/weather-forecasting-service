@@ -7,8 +7,6 @@ import Alert from '@material-ui/lab/Alert';
 import { useFetchQuery } from "../../hooks/useFetchQuery";
 import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 import { useFetchQueries } from "../../hooks/useFetchQueries";
-import useTypedStyles from "../../hooks/useTypedStyles";
-import { basicClasses } from "../../theme/basicClasses";
 import { SpaceAfterAppBar } from "../../components/SpaceAfterAppBar";
 
 const Dashboard = () => {
