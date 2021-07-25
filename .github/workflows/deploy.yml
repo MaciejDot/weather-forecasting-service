@@ -19,6 +19,7 @@ jobs:
       run: |
         npm install
         npm run-script build
+        npm run-script test
       env:
         REACT_APP_OPENWEATHER_API_KEY: ${{ secrets.REACT_APP_OPENWEATHER_API_KEY }}
 
