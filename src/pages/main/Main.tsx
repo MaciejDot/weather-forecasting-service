@@ -11,7 +11,7 @@ import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 const Dashboard = () => {
     const geo = useGeoLocation();
 
-    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY + 'nor_valid';
+    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
     const londonQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`)
 
