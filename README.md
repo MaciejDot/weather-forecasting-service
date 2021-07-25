@@ -2,6 +2,7 @@
 
 ![build](https://github.com/MaciejDot/weather-forecasting-service/actions/workflows/main.yml/badge.svg)
 
+[Homepage](http://MaciejDot.github.io/weather-forecasting-service)
 Service for displaying data from Openweather api
 
 ## About The Project
