@@ -34,10 +34,10 @@ const Dashboard = () => {
         {myLocationQuery.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}
         {defaultCities.map((city, index)=>cityQueries[index].isError && <Alert severity='error' key={city}>Error during fetching temperature data for {city}</Alert>)}
         <Grid container alignItems='center' spacing={3} justifyContent='space-evenly'>
-            <Grid item xs={12} lg={4}>
+            <Grid item xs={12} lg={4} id='my-location'>
                 {myLocationQuery.isLoading || geo.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="My Location" temp={myLocationQuery?.data?.main?.temp} to='/location' />}
             </Grid>
-            {defaultCities.map((city, index)=><Grid item xs={12} lg={4} key={city}>
+            {defaultCities.map((city, index)=><Grid item xs={12} lg={4} key={city} id={city}>
                 {cityQueries[index].isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel={city} temp={cityQueries[index].data?.main?.temp} to={`/location/${city}`} />}
             </Grid> )}
         </Grid>

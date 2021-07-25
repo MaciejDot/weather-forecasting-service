@@ -1,6 +1,6 @@
-import { geoLocationInitialValues, useSetupLocationContextValues } from './GeoLocationContext'
+import { geoLocationInitialValues, useSetupLocationContextValues } from '../../contexts/GeoLocationContext'
 import { renderHook, act } from '@testing-library/react-hooks'
-import { GeoLocationStatusEnum } from '../enums/GeoLocationStatusEnum';
+import { GeoLocationStatusEnum } from '../../enums/GeoLocationStatusEnum';
 
 test("useSetupLocationContextValues binds corectly status and setStatus", async () => {
     const { result } = renderHook(() => useSetupLocationContextValues())

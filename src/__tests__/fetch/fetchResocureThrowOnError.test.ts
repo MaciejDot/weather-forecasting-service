@@ -1,4 +1,4 @@
-import { fetchResocureThrowOnError } from './fetchResourceThrowOnError'
+import { fetchResocureThrowOnError } from '../../fetch/fetchResourceThrowOnError'
 import fetchMock from 'jest-fetch-mock';
 
 test('fetchResocureThrowOnError on status indicating failure will result in error throw',async ()=>{

@@ -2,7 +2,7 @@ import React from "react"
 import '@testing-library/jest-dom';
 import { render, screen } from "@testing-library/react";
 import { MemoryRouter } from 'react-router-dom';
-import App from "./App";
+import App from "../App";
 
 test("App loads 404 on unknown route", async () => {
   render(<MemoryRouter initialEntries={[`/${Math.random()}`]}><App /></MemoryRouter>)
