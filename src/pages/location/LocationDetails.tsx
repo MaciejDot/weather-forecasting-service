@@ -1,4 +1,3 @@
-import { useQuery } from "react-query";
 import { WeatherDataModel } from "../../apiModels/openweather/WheaterDataModel";
 import { Helmet } from "react-helmet";
 import {

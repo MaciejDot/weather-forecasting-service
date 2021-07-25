@@ -1,5 +1,4 @@
 import { Grid, Typography } from "@material-ui/core"
-import { useQuery } from "react-query";
 import { WeatherDataModel } from "../../apiModels/openweather/WheaterDataModel";
 import LookupWeatherCard from "../../components/LookupWeatherCard";
 import { useGeoLocation } from "../../hooks/useGeoLocation"

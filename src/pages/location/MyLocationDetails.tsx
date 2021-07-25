@@ -1,16 +1,16 @@
-import { useQuery } from "react-query";
 import { WeatherDataModel } from "../../apiModels/openweather/WheaterDataModel";
 import { useGeoLocation } from "../../hooks/useGeoLocation";
 import { Alert } from "@material-ui/lab";
 import LocationBar from "../../components/LocationBar";
 import LocationViewBody from "../../components/LocationViewBody";
 import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
+import { useFetchQuery } from "../../hooks/useFetchQuery";
 
 const MyLocationDetails = ()=>{
     const geo = useGeoLocation();
 
     const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
-    const query = useQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`, {
+    const query = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`, {
             enabled: !geo.isLoading && geo.status === GeoLocationStatusEnum.Success
         })
 
