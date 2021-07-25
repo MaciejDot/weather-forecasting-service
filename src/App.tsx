@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React, { useEffect, useMemo } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -12,7 +12,9 @@ import LocationDetails from './pages/location/LocationDetails';
 import MyLocationDetails from './pages/location/MyLocationDetails';
 import { GeoLocationContext, useSetupLocationContextValues } from './contexts/GeoLocationContext';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-import { createTheme, ThemeProvider } from '@material-ui/core';
+import { createTheme, Paper, ThemeProvider } from '@material-ui/core';
+import useTypedStyles from './hooks/useTypedStyles';
+import { basicClasses } from './theme/basicClasses';
 
 const client = new QueryClient({
     defaultOptions: {
@@ -24,7 +26,6 @@ const client = new QueryClient({
 })
 
 function App() {
-    console.log(process.env)
     const Path = (props: { children?: React.ReactNode, title: string, path: string, exact?: boolean }) =>
         <Route path={props.path} exact={props.exact}>
             <Helmet>
@@ -34,6 +35,11 @@ function App() {
         </Route>
 
     const prefersDarkMode = useMediaQuery('(prefers-color-scheme: dark)');
+
+    useEffect(() => {
+        /*body element is outside react dom so there is no way to reference it by react*/
+        document.getElementsByTagName('body')[0].style.backgroundColor = prefersDarkMode ? 'black' : 'white'
+    }, [prefersDarkMode]);
 
     const theme = useMemo(
         () =>
@@ -47,28 +53,32 @@ function App() {
 
     const geoLocationContextValues = useSetupLocationContextValues()
 
+    const classes = useTypedStyles(basicClasses);
+
     return (
         <ThemeProvider theme={theme}>
-            <GeoLocationContext.Provider value={geoLocationContextValues}>
-                <QueryClientProvider client={client}>
-                    <Router>
-                        <Switch>
-                            <Path exact path="/location" title="Weather in my location">
-                                <MyLocationDetails />
-                            </Path>
-                            <Route exact path="/location/:cityName">
-                                <LocationDetails />
-                            </Route>
-                            <Path exact path="/" title="Wheater Forecasting Service">
-                                <Main />
-                            </Path>
-                            <Path path="*" title="404 page not found">
-                                <Error404 />
-                            </Path>
-                        </Switch>
-                    </Router>
-                </QueryClientProvider>
-            </GeoLocationContext.Provider>
+            <Paper className={classes.root}>
+                <GeoLocationContext.Provider value={geoLocationContextValues}>
+                    <QueryClientProvider client={client}>
+                        <Router>
+                            <Switch>
+                                <Path exact path="/location" title="Weather in my location">
+                                    <MyLocationDetails />
+                                </Path>
+                                <Route exact path="/location/:cityName">
+                                    <LocationDetails />
+                                </Route>
+                                <Path exact path="/" title="Wheater Forecasting Service">
+                                    <Main />
+                                </Path>
+                                <Path path="*" title="404 page not found">
+                                    <Error404 />
+                                </Path>
+                            </Switch>
+                        </Router>
+                    </QueryClientProvider>
+                </GeoLocationContext.Provider>
+            </Paper>
         </ThemeProvider>
     );
 }

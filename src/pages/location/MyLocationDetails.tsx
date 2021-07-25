@@ -22,6 +22,7 @@ const MyLocationDetails = ()=>{
      {query.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}
        <LocationViewBody
         isError={query.isError || geo.isError}
+        timezone={data?.timezone}
         isLoading={query.isLoading || geo.isLoading}
         temp={data?.main.temp}
         highTemp={data?.main?.temp_max}

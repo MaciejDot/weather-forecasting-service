@@ -11,7 +11,7 @@ import LocationBar from "../../components/LocationBar";
 const LocationDetails = () => {
     const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
     const { cityName } = useParams();
-    const query = useQuery<WeatherDataModel | undefined>(`${cityName}-weather`, () =>
+    const query = useQuery<WeatherDataModel>(`${cityName}-weather`, () =>
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`).then(res => res.json()));
 
     const data = query.data;
@@ -23,6 +23,7 @@ const LocationDetails = () => {
         <LocationViewBody
             isError={query.isError}
             isLoading={query.isLoading}
+            timezone={data?.timezone}
             temp={data?.main.temp}
             highTemp={data?.main?.temp_max}
             lowTemp={data?.main?.temp_min}

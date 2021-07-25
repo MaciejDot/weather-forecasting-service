@@ -14,7 +14,8 @@ interface LocationViewBodyProps {
     sunrise?: number
     sunset?: number
     humidity?: number
-    visibility?: number
+    visibility?: number,
+    timezone?: number
 }
 
 

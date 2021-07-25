@@ -3,14 +3,15 @@ import { GeoLocationContext } from "../contexts/GeoLocationContext";
 
 export function useGeoLocation(){
     const geo = useContext(GeoLocationContext)
-    navigator.geolocation.getCurrentPosition(
+    !geo.alreadyRequested && navigator.geolocation.getCurrentPosition(
         position=>{
-
+            geo.setAlreadyRequested(true)
             geo.setLocation({ latitude: position.coords.latitude, longitude: position.coords.longitude})
             geo.setIsLoading(false);
             geo.setIsError(false);
         },
         ()=> {
+            geo.setAlreadyRequested(true);
             geo.setIsError(true)
         }
     );
