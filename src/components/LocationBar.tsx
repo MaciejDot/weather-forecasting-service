@@ -1,14 +1,15 @@
-import { IconButton, Grid, Typography } from "@material-ui/core";
+import { IconButton, Grid, Typography, AppBar } from "@material-ui/core";
 import { ArrowBackIos } from "@material-ui/icons";
 import { Link } from "react-router-dom";
 interface LocationBarProps {
     label: string
 }
 const LocationBar = (props: LocationBarProps) => {
-    return <Grid container>
+    return <AppBar><Grid container>
         <Grid item xs={1}>
             <IconButton
                 component={Link} to='/'
+                size='small'
             >
                 <ArrowBackIos />
             </IconButton>
@@ -19,5 +20,6 @@ const LocationBar = (props: LocationBarProps) => {
             </Typography>
         </Grid>
     </Grid>
+    </AppBar>
 }
 export default LocationBar;

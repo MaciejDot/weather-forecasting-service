@@ -1,4 +1,4 @@
-import { Grid, Typography } from "@material-ui/core"
+import { AppBar, Grid, Typography } from "@material-ui/core"
 import { WeatherDataModel } from "../../apiModels/openweather/WheaterDataModel";
 import LookupWeatherCard from "../../components/LookupWeatherCard";
 import { useGeoLocation } from "../../hooks/useGeoLocation"
@@ -7,6 +7,9 @@ import Alert from '@material-ui/lab/Alert';
 import { useFetchQuery } from "../../hooks/useFetchQuery";
 import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 import { useFetchQueries } from "../../hooks/useFetchQueries";
+import useTypedStyles from "../../hooks/useTypedStyles";
+import { basicClasses } from "../../theme/basicClasses";
+import { SpaceAfterAppBar } from "../../components/SpaceAfterAppBar";
 
 const Dashboard = () => {
     const geo = useGeoLocation();
@@ -22,9 +25,12 @@ const Dashboard = () => {
     })
 
     return (<>
+        <AppBar>
         <Typography variant='h5' align='center'>
             Dashboard
         </Typography>
+        </AppBar>
+        <SpaceAfterAppBar />
         {GeoLocationStatusEnum.ErrorUserOrDeviceRejection === geo.status && <Alert severity='error'>Turn on location in your browser to see weather result for your city</Alert>}
         {GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser === geo.status && <Alert severity='error'>Location api is not available in your current browser application may don't work properly</Alert>}
         {myLocationQuery.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}

@@ -1,6 +1,8 @@
-import { Typography } from "@material-ui/core";
+import { CardContent, Typography, Card } from "@material-ui/core";
 import { Skeleton } from "@material-ui/lab";
 import React from "react";
+import useTypedStyles from "../hooks/useTypedStyles";
+import { basicClasses } from "../theme/basicClasses";
 
 interface TemperatureDetailsProps{
     isLoading: boolean,
@@ -12,10 +14,13 @@ interface TemperatureDetailsProps{
 }
 
 const TemperatureDetails = (props: TemperatureDetailsProps)=>{
-    return (<>
+    const classes = useTypedStyles(basicClasses);
+    return (<Card className={classes.weatherDataCard}>
+        <CardContent>
+            <div className={classes.verticalCenteredContent}>
         {props.isLoading ? <Skeleton animation="wave" height={50}/> : 
         <Typography variant='subtitle1' align='center'>
-            {props.isError ? '--' : (props.weatherKind.length && props.weatherKind.reduce((a,b)=>`${a},${b}`))??'--'}
+            {props.isError ? '--' : (props.weatherKind?.length && props.weatherKind.reduce((a,b)=>`${a},${b}`))??'--'}
         </Typography>}
         {props.isLoading ? <Skeleton animation="wave" height={50}/> : 
         <Typography variant='h5' align='center'>
@@ -26,6 +31,8 @@ const TemperatureDetails = (props: TemperatureDetailsProps)=>{
             H:{props.isError ? '--':props.highTemp?.toFixed(0)??'--'}°C&nbsp;L:{props.isError ? '--':props.lowTemp?.toFixed(0)??'--'}°C
         </Typography>
         }
-    </>)}
+        </div>
+        </CardContent>
+    </Card>)}
 
 export default TemperatureDetails

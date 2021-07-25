@@ -5,6 +5,7 @@ import LocationBar from "../../components/LocationBar";
 import LocationViewBody from "../../components/LocationViewBody";
 import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 import { useFetchQuery } from "../../hooks/useFetchQuery";
+import { SpaceAfterAppBar } from "../../components/SpaceAfterAppBar";
 
 const MyLocationDetails = ()=>{
     const geo = useGeoLocation();
@@ -18,6 +19,7 @@ const MyLocationDetails = ()=>{
 
     return <>
      <LocationBar label="My Location"/>
+     <SpaceAfterAppBar/>
         {GeoLocationStatusEnum.ErrorUserOrDeviceRejection === geo.status && <Alert severity='error'>Turn on location in your browser to see weather result for your city</Alert>}
         {GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser === geo.status && <Alert severity='error'>Location api is not available in your current browser application may don't work properly</Alert>}
         {query.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}

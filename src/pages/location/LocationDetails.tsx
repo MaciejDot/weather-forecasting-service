@@ -7,6 +7,7 @@ import { Alert } from "@material-ui/lab";
 import LocationViewBody from "../../components/LocationViewBody";
 import LocationBar from "../../components/LocationBar";
 import { useFetchQuery } from "../../hooks/useFetchQuery";
+import { SpaceAfterAppBar } from "../../components/SpaceAfterAppBar";
 
 const LocationDetails = () => {
     const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
@@ -18,6 +19,7 @@ const LocationDetails = () => {
         <title>Weather in {cityName}</title>
     </Helmet>
         <LocationBar label={cityName}/>
+        <SpaceAfterAppBar />
         {query.isError && <Alert severity='error'>Error during fetching temperature data for {cityName}</Alert>}
         <LocationViewBody
             isError={query.isError}
