@@ -15,6 +15,7 @@ Service for displaying weather data for your Location, Berlin and London using O
 * [React-Query](https://react-query.tanstack.com)
 * [React-Helmet](https://github.com/nfl/react-helmet)
 * [Typescript](https://www.typescriptlang.org)
+* [date-fns](https://date-fns.org)
 * [Jest](https://jestjs.io)
 
 
