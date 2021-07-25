@@ -5,22 +5,23 @@ import LookupWeatherCard from "../../components/LookupWeatherCard";
 import { useGeoLocation } from "../../hooks/useGeoLocation"
 import Skeleton from '@material-ui/lab/Skeleton';
 import Alert from '@material-ui/lab/Alert';
+import { useEffect } from "react";
+import { useFetchQuery } from "../../hooks/useFetchQuery";
 
 const Dashboard = () => {
     const geo = useGeoLocation();
 
-    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
+    const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY + 'nor_valid';
 
-    const londonQuery = useQuery<WeatherDataModel>("london-weather", () =>
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`).then(res => res.json()))
+    const londonQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`)
 
-    const berlinQuery = useQuery<WeatherDataModel>("berlin-weather", () =>
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=${apiKey}&units=metric`).then(res => res.json()))
+    const berlinQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=${apiKey}&units=metric`)
 
-    const myLocationQuery = useQuery<WeatherDataModel>("my-location-weather", () =>
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`).then(res => res.json()), {
+    const myLocationQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`, {
         enabled: !geo.isLoading && !geo.isError
     })
+
+    useEffect(()=>{console.log(londonQuery)}, [londonQuery])
 
     return (<>
         <Typography variant='h5' align='center'>

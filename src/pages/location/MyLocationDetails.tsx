@@ -9,8 +9,7 @@ const MyLocationDetails = ()=>{
     const geo = useGeoLocation();
 
     const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
-    const query = useQuery<WeatherDataModel>("my-location-weather", ()=> 
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`).then(res=>res.json()),{
+    const query = useQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`, {
             enabled: !geo.isLoading && !geo.isError
         })
 

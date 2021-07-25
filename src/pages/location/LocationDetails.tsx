@@ -7,12 +7,12 @@ import {
 import { Alert } from "@material-ui/lab";
 import LocationViewBody from "../../components/LocationViewBody";
 import LocationBar from "../../components/LocationBar";
+import { useFetchQuery } from "../../hooks/useFetchQuery";
 
 const LocationDetails = () => {
     const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
     const { cityName } = useParams();
-    const query = useQuery<WeatherDataModel>(`${cityName}-weather`, () =>
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`).then(res => res.json()));
+    const query = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}&units=metric`);
 
     const data = query.data;
     return <>  <Helmet>
