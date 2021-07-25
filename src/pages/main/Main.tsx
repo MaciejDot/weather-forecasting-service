@@ -7,6 +7,7 @@ import Skeleton from '@material-ui/lab/Skeleton';
 import Alert from '@material-ui/lab/Alert';
 import { useEffect } from "react";
 import { useFetchQuery } from "../../hooks/useFetchQuery";
+import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 
 const Dashboard = () => {
     const geo = useGeoLocation();
@@ -18,7 +19,7 @@ const Dashboard = () => {
     const berlinQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?q=Berlin&appid=${apiKey}&units=metric`)
 
     const myLocationQuery = useFetchQuery<WeatherDataModel>(`https://api.openweathermap.org/data/2.5/weather?lat=${geo.location.latitude}&lon=${geo.location.longitude}&units=metric&appid=${apiKey}`, {
-        enabled: !geo.isLoading && !geo.isError
+        enabled: !geo.isLoading && geo.status === GeoLocationStatusEnum.Success
     })
 
     useEffect(()=>{console.log(londonQuery)}, [londonQuery])
@@ -27,7 +28,8 @@ const Dashboard = () => {
         <Typography variant='h5' align='center'>
             Dashboard
         </Typography>
-        {geo.isError && <Alert severity='error'>Turn on location in your browser to see weather result for your city</Alert>}
+        {GeoLocationStatusEnum.ErrorUserOrDeviceRejection === geo.status && <Alert severity='error'>Turn on location in your browser to see weather result for your city</Alert>}
+        {GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser === geo.status && <Alert severity='error'>Location api is not available in your current browser application may don't work properly</Alert>}
         {myLocationQuery.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}
         {berlinQuery.isError && <Alert severity='error'>Error during fetching temperature data for Berlin</Alert>}
         {londonQuery.isError && <Alert severity='error'>Error during fetching temperature data for London</Alert>}

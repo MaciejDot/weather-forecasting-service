@@ -1,19 +1,26 @@
 import { useContext } from "react";
 import { GeoLocationContext } from "../contexts/GeoLocationContext";
+import { GeoLocationStatusEnum } from "../enums/GeoLocationStatusEnum";
 
 export function useGeoLocation(){
     const geo = useContext(GeoLocationContext)
-    !geo.alreadyRequested && navigator.geolocation.getCurrentPosition(
+    if(!geo.alreadyRequested && navigator.geolocation) navigator.geolocation.getCurrentPosition(
         position=>{
             geo.setAlreadyRequested(true)
             geo.setLocation({ latitude: position.coords.latitude, longitude: position.coords.longitude})
             geo.setIsLoading(false);
-            geo.setIsError(false);
+            geo.setStatus(GeoLocationStatusEnum.Success);
         },
         ()=> {
             geo.setAlreadyRequested(true);
-            geo.setIsError(true)
+            geo.setStatus(GeoLocationStatusEnum.ErrorUserOrDeviceRejection)
         }
     );
-    return { isError:geo.isError,location: geo.location, isLoading:geo.isLoading}
+    if(!navigator.geolocation)
+    {
+        geo.setStatus(GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser);
+        geo.setIsLoading(false);
+        geo.setAlreadyRequested(true);
+    }
+    return { status: geo.status, location: geo.location, isLoading:geo.isLoading}
 }

@@ -19,7 +19,7 @@ Service for displaying weather data for your Location, Berlin and London using O
 * [Typescript](https://www.typescriptlang.org)
 * [date-fns](https://date-fns.org)
 * [Jest](https://jestjs.io)
-
+* [Jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
 
 <!-- GETTING STARTED -->
 ## Getting Started
