@@ -14,7 +14,7 @@ import useMediaQuery from '@material-ui/core/useMediaQuery';
 import { createTheme, Paper, ThemeProvider } from '@material-ui/core';
 import useTypedStyles from './hooks/useTypedStyles';
 import { basicClasses } from './theme/basicClasses';
-
+import {Toaster, resolveValue} from 'react-hot-toast'
 const client = new QueryClient({
     defaultOptions: {
         queries: {
@@ -55,10 +55,7 @@ function App() {
     const classes = useTypedStyles(basicClasses);
 
     return (
-        <ThemeProvider theme={theme}>
-            <Paper className={classes.root}>
-                <GeoLocationContext.Provider value={geoLocationContextValues}>
-                    <QueryClientProvider client={client}>
+        
                             <Switch>
                                 <Path exact path="/location" title="Weather in my location">
                                     <MyLocationDetails />
@@ -73,10 +70,6 @@ function App() {
                                     <Error404 />
                                 </Path>
                             </Switch>
-                    </QueryClientProvider>
-                </GeoLocationContext.Provider>
-            </Paper>
-        </ThemeProvider>
     );
 }
 

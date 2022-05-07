@@ -1,0 +1,45 @@
+.item{
+    margin: 8px;
+    padding: 8px;
+    background-color: white;
+    height: 60px;
+    border-color: hsl(100, 0%, 75%);
+    cursor: pointer;
+    display: block;
+}
+
+.name{
+    font-size: 16px;
+    margin: 0;
+    flex:1;
+}
+
+.nameAndCoordinates{
+    display: block;
+}
+
+.errorMessage{
+    font-size: 16px;
+    margin: 0;
+    margin-top: 8px;
+    font-size: 12px;
+    margin: 0;
+    color: hsl(100, 0%, 75%);
+}
+
+.errorLink{
+    text-decoration: none;
+    color: hsl(0, 50%, 50%);
+}
+
+.errorLink:visited{
+    color: hsl(0, 25%, 50%);
+}
+
+.errorLink:hover:visited{
+    color: hsl(0, 25%, 75%);
+}
+
+.errorLink:hover{
+    color: hsl(0, 50%, 75%);
+}

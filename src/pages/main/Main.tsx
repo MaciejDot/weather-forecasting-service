@@ -8,6 +8,8 @@ import { useFetchQuery } from "../../hooks/useFetchQuery";
 import { GeoLocationStatusEnum } from "../../enums/GeoLocationStatusEnum";
 import { useFetchQueries } from "../../hooks/useFetchQueries";
 import { SpaceAfterAppBar } from "../../components/SpaceAfterAppBar";
+import { useEffect, useState } from "react";
+import { notify } from "../../notifications/Notifications";
 
 const Dashboard = () => {
     const geo = useGeoLocation();
@@ -22,6 +24,27 @@ const Dashboard = () => {
         enabled: !geo.isLoading && geo.status === GeoLocationStatusEnum.Success
     })
 
+    const [ notified, setNotified] = useState(defaultCities.map(x=> false));
+
+    useEffect(()=>{
+        const abstract = {
+            [GeoLocationStatusEnum.ErrorUserOrDeviceRejection] : ()=>notify("Turn on location in your browser to see weather result for your city",'error'),
+            [GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser]:()=>notify("Location api is not available in your current browser application may don't work properly",'error')
+        }
+        abstract[geo.status] && abstract[geo.status]()
+    }, [geo.status])
+    
+    useEffect(()=>{
+        cityQueries.forEach((x, index)=>{
+            if(x.isError && !notified[index]){
+                notify(`Error during fetching temperature data for ${defaultCities[index]}`,'error')
+               setNotified(notified.map((x,i)=>i===index? true: x ))
+            } 
+        })
+    }, cityQueries.map(x=>x.isError))
+    
+    useEffect(()=>{myLocationQuery.isError && notify("Error during fetching temperature data for your location","error")},[myLocationQuery.isError])
+
     return (<>
         <AppBar>
         <Typography variant='h5' align='center'>
@@ -29,13 +52,11 @@ const Dashboard = () => {
         </Typography>
         </AppBar>
         <SpaceAfterAppBar />
-        {GeoLocationStatusEnum.ErrorUserOrDeviceRejection === geo.status && <Alert severity='error'>Turn on location in your browser to see weather result for your city</Alert>}
-        {GeoLocationStatusEnum.ErrorLocationIsNotAvailableInBrowser === geo.status && <Alert severity='error'>Location api is not available in your current browser application may don't work properly</Alert>}
-        {myLocationQuery.isError && <Alert severity='error'>Error during fetching temperature data for your location</Alert>}
-        {defaultCities.map((city, index)=>cityQueries[index].isError && <Alert severity='error' key={city}>Error during fetching temperature data for {city}</Alert>)}
         <Grid container alignItems='center' spacing={3} justifyContent='space-evenly'>
             <Grid item xs={12} lg={4} id='my-location'>
-                {myLocationQuery.isLoading || geo.isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel="My Location" temp={myLocationQuery?.data?.main?.temp} to='/location' />}
+                {(myLocationQuery.isLoading || geo.isLoading )  
+                ? <Skeleton animation="wave" height={64} /> 
+                : <LookupWeatherCard locationLabel="My Location" temp={myLocationQuery?.data?.main?.temp} to='/location' />}
             </Grid>
             {defaultCities.map((city, index)=><Grid item xs={12} lg={4} key={city} id={city}>
                 {cityQueries[index].isLoading ? <Skeleton animation="wave" height={64} /> : <LookupWeatherCard locationLabel={city} temp={cityQueries[index].data?.main?.temp} to={`/location/${city}`} />}

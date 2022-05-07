@@ -1,0 +1,38 @@
+.errorContainer{
+    margin: 16px;
+background-color: white;
+height: 50vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.errorTitle{
+    font-size: 19px;
+    line-height: 25px;
+    color: hsl(0, 50%, 50%);
+    text-align: center;
+}
+
+.errorMessage{
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    margin-top: 8px;
+    font-size: 12px;
+    margin: 0;
+    color: hsl(100, 0%, 75%);
+}
+
+.errorLink{
+    text-decoration: none;
+    color: hsl(0, 50%, 50%);
+}
+
+.errorLink:visited{
+    color: hsl(0, 25%, 50%);
+}
+
+.errorLink:hover:visited{
+    color: hsl(0, 25%, 75%);
+}

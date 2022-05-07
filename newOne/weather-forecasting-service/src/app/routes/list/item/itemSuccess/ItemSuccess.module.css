@@ -1,0 +1,47 @@
+.item{
+    margin: 8px;
+    padding: 8px;
+    background-color: white;
+    height: 60px;
+    border-color: hsl(100, 0%, 75%);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.item:hover{
+    background-color: hsl(0, 0%, 90%);
+}
+
+.name{
+    font-size: 16px;
+    margin: 0;
+    flex:1;
+}
+
+.nameAndCoordinates{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.temperature{
+    font-size: 16px;
+    margin: 0;
+    text-align: end;
+    flex:1;
+    width: 100%;
+}
+
+.coordinates{
+    font-size: 12px;
+    flex:1;
+    margin: 0;
+    color: hsl(100, 0%, 75%);
+}

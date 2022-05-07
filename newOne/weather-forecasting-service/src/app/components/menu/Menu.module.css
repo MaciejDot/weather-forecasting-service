@@ -1,0 +1,28 @@
+.menuContainer{
+    position: sticky;
+    width: 100%;
+    padding: 16px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    background-color: hsl(238, 80%, 25%);
+    border-color: hsl(100, 0%, 75%);
+}
+
+.appLink{
+    font-size: 19px;
+    line-height: 25px;
+    text-decoration: none;
+    color: hsl(200, 50%, 50%);
+}
+
+.appLink:visited{
+    color: hsl(200, 25%, 50%);
+}
+
+.appLink:hover:visited{
+    color: hsl(200, 25%, 75%);
+}
+
+.appLink:hover{
+    color: hsl(200, 50%, 75%);
+}
