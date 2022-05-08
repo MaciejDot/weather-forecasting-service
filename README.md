@@ -14,22 +14,15 @@ Service for displaying weather data for your Location, Berlin and London using O
 ### Built With
 
 * [React](https://reactjs.org)
-* [Material-UI](https://material-ui.com)
-* [React-Query](https://react-query.tanstack.com)
-* [React-Helmet](https://github.com/nfl/react-helmet)
-* [Typescript](https://www.typescriptlang.org)
-* [date-fns](https://date-fns.org)
-* [Jest](https://jestjs.io)
-* [Jest-fetch-mock](https://www.npmjs.com/package/jest-fetch-mock)
-* [react-hooks-testing-library](https://github.com/testing-library/react-hooks-testing-library)
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 ### Prerequisites
 
 Before installation of package you should have installed
-[Node](https://nodejs.org/en/download/) and npm (should be shipped with Node)
+* ESLint extension if on vs code
+* [https://graphviz.org/download/]
+* yarn
 
 ### Installation
 
@@ -40,7 +33,7 @@ Before installation of package you should have installed
    ```
 3. Install NPM packages
    ```sh
-   npm install
+   yarn install
    ```
 4. Create file `.env` in root directory of project and enter:
    ```
@@ -50,17 +43,17 @@ Before installation of package you should have installed
 
 1. Run script in project root directory
    ```sh
-   npm run start
+   yarn start
    ```
 ### Testing
 1. Run script in project root directory
    ```sh
-   npm run test
+   yarn test
    ```
 ### Building
 1. Run script in project root directory
    ```sh
-   npm run build
+   yarn build
    ```
 ## Roadmap
 

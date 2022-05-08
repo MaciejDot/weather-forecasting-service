@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    padding: 16px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    background-color: hsl(238, 80%, 25%);
+    border-color: hsl(100, 0%, 75%);
+    color: hsl(200, 50%, 75%);
+}
+
+.paragraph{
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.picture{
+    height: 16px;
+}
+
+.pictureLink{
+    filter: brightness(0) saturate(100%) invert(57%) sepia(80%) saturate(351%) hue-rotate(156deg) brightness(79%) contrast(91%);
+}
+
+.pictureLink:visited{
+    filter: brightness(0) saturate(100%) invert(55%) sepia(36%) saturate(368%) hue-rotate(155deg) brightness(86%) contrast(89%);
+}
+
+.pictureLink:hover:visited{
+    filter: brightness(0) saturate(100%) invert(85%) sepia(28%) saturate(155%) hue-rotate(154deg) brightness(87%) contrast(90%);
+}
+
+.pictureLink:hover{
+    filter: brightness(0) saturate(100%) invert(84%) sepia(98%) saturate(7499%) hue-rotate(170deg) brightness(91%) contrast(91%);
+}
+
+.weatherLink{
+    text-decoration: none;
+    color: hsl(200, 50%, 50%);
+}
+
+.weatherLink:visited{
+    color: hsl(200, 25%, 50%);
+}
+
+.weatherLink:hover:visited{
+    color: hsl(200, 25%, 75%);
+}
+
+.weatherLink:hover{
+    color: hsl(200, 50%, 75%);
+}
