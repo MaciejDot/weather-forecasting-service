@@ -175,6 +175,50 @@ module.exports = {
       }
     },
     {
+      name: 'only-ref-deeper-components',
+      severity: 'error',
+      from: {
+        path: '(.*)\\/[a-zA-Z0-9_]*\\.tsx$',
+        pathNot: '__tests__'
+      },
+      to: {
+        path: '\\.tsx$',
+        pathNot: ['$1',  'Fetch'],
+      }
+    },
+    {
+      name: 'only-ref-hooks-on-same-level',
+      severity: 'error',
+      from: {
+        path: '(.*)\/[a-zA-Z0-9_]*\.tsx',
+        pathNot: '__tests__'
+      },
+      to: {
+        path: '\\/use',
+        pathNot: ['$1',  'Fetch'],
+      }
+    },
+    {
+      name: 'only-ref-domain-by-hooks',
+       severity: 'error',
+      from: {
+        pathNot: '\\/use'
+      },
+      to: {
+        path: 'domains'
+      }
+    },
+    {
+      name: 'not-to-ref__tests__outside',
+       severity: 'error',
+      from: {
+        pathNot: '__tests__'
+      },
+      to: {
+        path: '__tests__'
+      }
+    },
+    {
       name: 'peer-deps-used',
       comment:
         "This module depends on an npm package that is declared as a peer dependency " +

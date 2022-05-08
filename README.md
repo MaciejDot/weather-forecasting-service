@@ -55,6 +55,15 @@ Before installation of package you should have installed
    ```sh
    yarn build
    ```
+
+## Test Dependencies
+
+1. Run script in project root directory
+   ```sh
+   yarn test:dependencies
+   ```
+
+
 ## Dependencies map
 
 ![dependencies](https://github.com/MaciejDot/weather-forecasting-service/blob/main/dependencygraph.svg)
