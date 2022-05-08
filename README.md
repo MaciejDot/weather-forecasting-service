@@ -55,10 +55,13 @@ Before installation of package you should have installed
    ```sh
    yarn build
    ```
+## Dependencies map
+
+![dependencies](https://github.com/MaciejDot/weather-forecasting-service/blob/main/dependencygraph.svg)
+
 ## Roadmap
 
 See the [open issues](https://github.com/MaciejDot/weather-forecasting-service/issues) for a list of proposed features (and known issues).
-
 
 ## Contributing
 
