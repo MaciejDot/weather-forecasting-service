@@ -1,5 +1,4 @@
 .footer{
-    width: 100%;
     padding: 16px;
     border-top-style: solid;
     border-top-width: 1px;
@@ -9,12 +8,13 @@
 }
 
 .paragraph{
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
 }
 
 .picture{
-    height: 16px;
+    margin-top: 4px;
+    height: 12px;
 }
 
 .pictureLink{
