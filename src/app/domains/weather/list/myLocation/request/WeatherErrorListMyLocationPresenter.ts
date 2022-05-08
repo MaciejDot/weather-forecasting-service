@@ -2,7 +2,7 @@ export default function WeatherErrorListMyLocationPresenter() {
   return {
     getName,
     getErrorMessage,
-    getRefreshHref,
+    onRefreshClick,
     getRefreshMessage,
   };
 
@@ -18,7 +18,7 @@ export default function WeatherErrorListMyLocationPresenter() {
     return 'Click to refresh.';
   }
 
-  function getRefreshHref() {
-    return '#';
+  function onRefreshClick() {
+    window.location.reload();
   }
 }

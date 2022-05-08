@@ -64,35 +64,50 @@
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1300,-1554C1300,-1554 1527,-1554 1527,-1554 1533,-1554 1539,-1560 1539,-1566 1539,-1566 1539,-2138 1539,-2138 1539,-2144 1533,-2150 1527,-2150 1527,-2150 1300,-2150 1300,-2150 1294,-2150 1288,-2144 1288,-2138 1288,-2138 1288,-1566 1288,-1566 1288,-1560 1294,-1554 1300,-1554"/>
 <text text-anchor="middle" x="1413.5" y="-2138.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">list</text>
 </g>
+<g id="clust14" class="cluster">
+<title>cluster_src/app/domains/weather/list/item</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1333.5,-1926C1333.5,-1926 1493.5,-1926 1493.5,-1926 1499.5,-1926 1505.5,-1932 1505.5,-1938 1505.5,-1938 1505.5,-2086 1505.5,-2086 1505.5,-2092 1499.5,-2098 1493.5,-2098 1493.5,-2098 1333.5,-2098 1333.5,-2098 1327.5,-2098 1321.5,-2092 1321.5,-2086 1321.5,-2086 1321.5,-1938 1321.5,-1938 1321.5,-1932 1327.5,-1926 1333.5,-1926"/>
+<text text-anchor="middle" x="1413.5" y="-2086.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">item</text>
+</g>
 <g id="clust15" class="cluster">
 <title>cluster_src/app/domains/weather/list/myLocation</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1308,-1562C1308,-1562 1519,-1562 1519,-1562 1525,-1562 1531,-1568 1531,-1574 1531,-1574 1531,-1906 1531,-1906 1531,-1912 1525,-1918 1519,-1918 1519,-1918 1308,-1918 1308,-1918 1302,-1918 1296,-1912 1296,-1906 1296,-1906 1296,-1574 1296,-1574 1296,-1568 1302,-1562 1308,-1562"/>
 <text text-anchor="middle" x="1413.5" y="-1906.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocation</text>
-</g>
-<g id="clust16" class="cluster">
-<title>cluster_src/app/domains/weather/list/myLocation/geolocation</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1325,-1750C1325,-1750 1502,-1750 1502,-1750 1508,-1750 1514,-1756 1514,-1762 1514,-1762 1514,-1880 1514,-1880 1514,-1886 1508,-1892 1502,-1892 1502,-1892 1325,-1892 1325,-1892 1319,-1892 1313,-1886 1313,-1880 1313,-1880 1313,-1762 1313,-1762 1313,-1756 1319,-1750 1325,-1750"/>
-<text text-anchor="middle" x="1413.5" y="-1880.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">geolocation</text>
 </g>
 <g id="clust17" class="cluster">
 <title>cluster_src/app/domains/weather/list/myLocation/request</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1316,-1570C1316,-1570 1511,-1570 1511,-1570 1517,-1570 1523,-1576 1523,-1582 1523,-1582 1523,-1730 1523,-1730 1523,-1736 1517,-1742 1511,-1742 1511,-1742 1316,-1742 1316,-1742 1310,-1742 1304,-1736 1304,-1730 1304,-1730 1304,-1582 1304,-1582 1304,-1576 1310,-1570 1316,-1570"/>
 <text text-anchor="middle" x="1413.5" y="-1730.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">request</text>
 </g>
-<g id="clust14" class="cluster">
-<title>cluster_src/app/domains/weather/list/item</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1333.5,-1926C1333.5,-1926 1493.5,-1926 1493.5,-1926 1499.5,-1926 1505.5,-1932 1505.5,-1938 1505.5,-1938 1505.5,-2086 1505.5,-2086 1505.5,-2092 1499.5,-2098 1493.5,-2098 1493.5,-2098 1333.5,-2098 1333.5,-2098 1327.5,-2098 1321.5,-2092 1321.5,-2086 1321.5,-2086 1321.5,-1938 1321.5,-1938 1321.5,-1932 1327.5,-1926 1333.5,-1926"/>
-<text text-anchor="middle" x="1413.5" y="-2086.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">item</text>
+<g id="clust16" class="cluster">
+<title>cluster_src/app/domains/weather/list/myLocation/geolocation</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1325,-1750C1325,-1750 1502,-1750 1502,-1750 1508,-1750 1514,-1756 1514,-1762 1514,-1762 1514,-1880 1514,-1880 1514,-1886 1508,-1892 1502,-1892 1502,-1892 1325,-1892 1325,-1892 1319,-1892 1313,-1886 1313,-1880 1313,-1880 1313,-1762 1313,-1762 1313,-1756 1319,-1750 1325,-1750"/>
+<text text-anchor="middle" x="1413.5" y="-1880.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">geolocation</text>
+</g>
+<g id="clust10" class="cluster">
+<title>cluster_src/app/domains/footer</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1371,-2244C1371,-2244 1456,-2244 1456,-2244 1462,-2244 1468,-2250 1468,-2256 1468,-2256 1468,-2284 1468,-2284 1468,-2290 1462,-2296 1456,-2296 1456,-2296 1371,-2296 1371,-2296 1365,-2296 1359,-2290 1359,-2284 1359,-2284 1359,-2256 1359,-2256 1359,-2250 1365,-2244 1371,-2244"/>
+<text text-anchor="middle" x="1413.5" y="-2284.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">footer</text>
 </g>
 <g id="clust11" class="cluster">
 <title>cluster_src/app/domains/menu</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1373,-2304C1373,-2304 1454,-2304 1454,-2304 1460,-2304 1466,-2310 1466,-2316 1466,-2316 1466,-2344 1466,-2344 1466,-2350 1460,-2356 1454,-2356 1454,-2356 1373,-2356 1373,-2356 1367,-2356 1361,-2350 1361,-2344 1361,-2344 1361,-2316 1361,-2316 1361,-2310 1367,-2304 1373,-2304"/>
 <text text-anchor="middle" x="1413.5" y="-2344.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">menu</text>
 </g>
-<g id="clust10" class="cluster">
-<title>cluster_src/app/domains/footer</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1371,-2244C1371,-2244 1456,-2244 1456,-2244 1462,-2244 1468,-2250 1468,-2256 1468,-2256 1468,-2284 1468,-2284 1468,-2290 1462,-2296 1456,-2296 1456,-2296 1371,-2296 1371,-2296 1365,-2296 1359,-2290 1359,-2284 1359,-2284 1359,-2256 1359,-2256 1359,-2250 1365,-2244 1371,-2244"/>
-<text text-anchor="middle" x="1413.5" y="-2284.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">footer</text>
+<g id="clust18" class="cluster">
+<title>cluster_src/app/infrastructure</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1344.5,-148C1344.5,-148 1785,-148 1785,-148 1791,-148 1797,-154 1797,-160 1797,-160 1797,-312 1797,-312 1797,-318 1791,-324 1785,-324 1785,-324 1344.5,-324 1344.5,-324 1338.5,-324 1332.5,-318 1332.5,-312 1332.5,-312 1332.5,-160 1332.5,-160 1332.5,-154 1338.5,-148 1344.5,-148"/>
+<text text-anchor="middle" x="1564.75" y="-312.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">infrastructure</text>
+</g>
+<g id="clust19" class="cluster">
+<title>cluster_src/app/infrastructure/model</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1376,-246C1376,-246 1451,-246 1451,-246 1457,-246 1463,-252 1463,-258 1463,-258 1463,-286 1463,-286 1463,-292 1457,-298 1451,-298 1451,-298 1376,-298 1376,-298 1370,-298 1364,-292 1364,-286 1364,-286 1364,-258 1364,-258 1364,-252 1370,-246 1376,-246"/>
+<text text-anchor="middle" x="1413.5" y="-286.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">model</text>
+</g>
+<g id="clust20" class="cluster">
+<title>cluster_src/app/infrastructure/weather</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M1352.5,-156C1352.5,-156 1777,-156 1777,-156 1783,-156 1789,-162 1789,-168 1789,-168 1789,-226 1789,-226 1789,-232 1783,-238 1777,-238 1777,-238 1352.5,-238 1352.5,-238 1346.5,-238 1340.5,-232 1340.5,-226 1340.5,-226 1340.5,-168 1340.5,-168 1340.5,-162 1346.5,-156 1352.5,-156"/>
+<text text-anchor="middle" x="1564.75" y="-226.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">weather</text>
 </g>
 <g id="clust21" class="cluster">
 <title>cluster_src/app/navigator</title>
@@ -114,21 +129,6 @@
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M882,-176C882,-176 957,-176 957,-176 963,-176 969,-182 969,-188 969,-188 969,-246 969,-246 969,-252 963,-258 957,-258 957,-258 882,-258 882,-258 876,-258 870,-252 870,-246 870,-246 870,-188 870,-188 870,-182 876,-176 882,-176"/>
 <text text-anchor="middle" x="919.5" y="-246.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">models</text>
 </g>
-<g id="clust18" class="cluster">
-<title>cluster_src/app/infrastructure</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1344.5,-148C1344.5,-148 1785,-148 1785,-148 1791,-148 1797,-154 1797,-160 1797,-160 1797,-312 1797,-312 1797,-318 1791,-324 1785,-324 1785,-324 1344.5,-324 1344.5,-324 1338.5,-324 1332.5,-318 1332.5,-312 1332.5,-312 1332.5,-160 1332.5,-160 1332.5,-154 1338.5,-148 1344.5,-148"/>
-<text text-anchor="middle" x="1564.75" y="-312.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">infrastructure</text>
-</g>
-<g id="clust20" class="cluster">
-<title>cluster_src/app/infrastructure/weather</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1352.5,-216C1352.5,-216 1777,-216 1777,-216 1783,-216 1789,-222 1789,-228 1789,-228 1789,-286 1789,-286 1789,-292 1783,-298 1777,-298 1777,-298 1352.5,-298 1352.5,-298 1346.5,-298 1340.5,-292 1340.5,-286 1340.5,-286 1340.5,-228 1340.5,-228 1340.5,-222 1346.5,-216 1352.5,-216"/>
-<text text-anchor="middle" x="1564.75" y="-286.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">weather</text>
-</g>
-<g id="clust19" class="cluster">
-<title>cluster_src/app/infrastructure/model</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M1376,-156C1376,-156 1451,-156 1451,-156 1457,-156 1463,-162 1463,-168 1463,-168 1463,-196 1463,-196 1463,-202 1457,-208 1451,-208 1451,-208 1376,-208 1376,-208 1370,-208 1364,-202 1364,-196 1364,-196 1364,-168 1364,-168 1364,-162 1370,-156 1376,-156"/>
-<text text-anchor="middle" x="1413.5" y="-196.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">model</text>
-</g>
 <g id="clust25" class="cluster">
 <title>cluster_src/app/routes</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M336,-342C336,-342 1471,-342 1471,-342 1477,-342 1483,-348 1483,-354 1483,-354 1483,-1518 1483,-1518 1483,-1524 1477,-1530 1471,-1530 1471,-1530 336,-1530 336,-1530 330,-1530 324,-1524 324,-1518 324,-1518 324,-354 324,-354 324,-348 330,-342 336,-342"/>
@@ -149,40 +149,45 @@
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M504,-384C504,-384 1455,-384 1455,-384 1461,-384 1467,-390 1467,-396 1467,-396 1467,-724 1467,-724 1467,-730 1461,-736 1455,-736 1455,-736 504,-736 504,-736 498,-736 492,-730 492,-724 492,-724 492,-396 492,-396 492,-390 498,-384 504,-384"/>
 <text text-anchor="middle" x="979.5" y="-724.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">item</text>
 </g>
-<g id="clust31" class="cluster">
-<title>cluster_src/app/routes/list/item/itemLoading</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M637,-572C637,-572 1000,-572 1000,-572 1006,-572 1012,-578 1012,-584 1012,-584 1012,-642 1012,-642 1012,-648 1006,-654 1000,-654 1000,-654 637,-654 637,-654 631,-654 625,-648 625,-642 625,-642 625,-584 625,-584 625,-578 631,-572 637,-572"/>
-<text text-anchor="middle" x="818.5" y="-642.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemLoading</text>
-</g>
 <g id="clust29" class="cluster">
 <title>cluster_src/app/routes/list/item/context</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M1380,-407C1380,-407 1447,-407 1447,-407 1453,-407 1459,-413 1459,-419 1459,-419 1459,-447 1459,-447 1459,-453 1453,-459 1447,-459 1447,-459 1380,-459 1380,-459 1374,-459 1368,-453 1368,-447 1368,-447 1368,-419 1368,-419 1368,-413 1374,-407 1380,-407"/>
 <text text-anchor="middle" x="1413.5" y="-447.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">context</text>
 </g>
-<g id="clust32" class="cluster">
-<title>cluster_src/app/routes/list/item/itemSuccess</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M636,-392C636,-392 1001,-392 1001,-392 1007,-392 1013,-398 1013,-404 1013,-404 1013,-462 1013,-462 1013,-468 1007,-474 1001,-474 1001,-474 636,-474 636,-474 630,-474 624,-468 624,-462 624,-462 624,-404 624,-404 624,-398 630,-392 636,-392"/>
-<text text-anchor="middle" x="818.5" y="-462.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemSuccess</text>
+<g id="clust31" class="cluster">
+<title>cluster_src/app/routes/list/item/itemLoading</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M637,-572C637,-572 1000,-572 1000,-572 1006,-572 1012,-578 1012,-584 1012,-584 1012,-642 1012,-642 1012,-648 1006,-654 1000,-654 1000,-654 637,-654 637,-654 631,-654 625,-648 625,-642 625,-642 625,-584 625,-584 625,-578 631,-572 637,-572"/>
+<text text-anchor="middle" x="818.5" y="-642.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemLoading</text>
 </g>
 <g id="clust30" class="cluster">
 <title>cluster_src/app/routes/list/item/itemError</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M644,-482C644,-482 993,-482 993,-482 999,-482 1005,-488 1005,-494 1005,-494 1005,-552 1005,-552 1005,-558 999,-564 993,-564 993,-564 644,-564 644,-564 638,-564 632,-558 632,-552 632,-552 632,-494 632,-494 632,-488 638,-482 644,-482"/>
 <text text-anchor="middle" x="818.5" y="-552.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemError</text>
 </g>
+<g id="clust32" class="cluster">
+<title>cluster_src/app/routes/list/item/itemSuccess</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M636,-392C636,-392 1001,-392 1001,-392 1007,-392 1013,-398 1013,-404 1013,-404 1013,-462 1013,-462 1013,-468 1007,-474 1001,-474 1001,-474 636,-474 636,-474 630,-474 624,-468 624,-462 624,-462 624,-404 624,-404 624,-398 630,-392 636,-392"/>
+<text text-anchor="middle" x="818.5" y="-462.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemSuccess</text>
+</g>
 <g id="clust33" class="cluster">
 <title>cluster_src/app/routes/list/myLocationItem</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M484,-744C484,-744 1252,-744 1252,-744 1258,-744 1264,-750 1264,-756 1264,-756 1264,-1350 1264,-1350 1264,-1356 1258,-1362 1252,-1362 1252,-1362 484,-1362 484,-1362 478,-1362 472,-1356 472,-1350 472,-1350 472,-756 472,-756 472,-750 478,-744 484,-744"/>
 <text text-anchor="middle" x="868" y="-1350.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationItem</text>
 </g>
-<g id="clust34" class="cluster">
-<title>cluster_src/app/routes/list/myLocationItem/myLocationError</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M630,-1164C630,-1164 1014.5,-1164 1014.5,-1164 1020.5,-1164 1026.5,-1170 1026.5,-1176 1026.5,-1176 1026.5,-1234 1026.5,-1234 1026.5,-1240 1020.5,-1246 1014.5,-1246 1014.5,-1246 630,-1246 630,-1246 624,-1246 618,-1240 618,-1234 618,-1234 618,-1176 618,-1176 618,-1170 624,-1164 630,-1164"/>
-<text text-anchor="middle" x="822.25" y="-1234.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationError</text>
+<g id="clust35" class="cluster">
+<title>cluster_src/app/routes/list/myLocationItem/myLocationLoading</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M623.5,-1254C623.5,-1254 1015.5,-1254 1015.5,-1254 1021.5,-1254 1027.5,-1260 1027.5,-1266 1027.5,-1266 1027.5,-1324 1027.5,-1324 1027.5,-1330 1021.5,-1336 1015.5,-1336 1015.5,-1336 623.5,-1336 623.5,-1336 617.5,-1336 611.5,-1330 611.5,-1324 611.5,-1324 611.5,-1266 611.5,-1266 611.5,-1260 617.5,-1254 623.5,-1254"/>
+<text text-anchor="middle" x="819.5" y="-1324.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationLoading</text>
 </g>
 <g id="clust36" class="cluster">
 <title>cluster_src/app/routes/list/myLocationItem/myLocationSuccess</title>
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M640,-808C640,-808 1244,-808 1244,-808 1250,-808 1256,-814 1256,-820 1256,-820 1256,-1144 1256,-1144 1256,-1150 1250,-1156 1244,-1156 1244,-1156 640,-1156 640,-1156 634,-1156 628,-1150 628,-1144 628,-1144 628,-820 628,-820 628,-814 634,-808 640,-808"/>
 <text text-anchor="middle" x="942" y="-1144.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationSuccess</text>
+</g>
+<g id="clust39" class="cluster">
+<title>cluster_src/app/routes/list/myLocationItem/myLocationSuccess/itemSuccess</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M854,-816C854,-816 1222.5,-816 1222.5,-816 1228.5,-816 1234.5,-822 1234.5,-828 1234.5,-828 1234.5,-886 1234.5,-886 1234.5,-892 1228.5,-898 1222.5,-898 1222.5,-898 854,-898 854,-898 848,-898 842,-892 842,-886 842,-886 842,-828 842,-828 842,-822 848,-816 854,-816"/>
+<text text-anchor="middle" x="1038.25" y="-886.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemSuccess</text>
 </g>
 <g id="clust38" class="cluster">
 <title>cluster_src/app/routes/list/myLocationItem/myLocationSuccess/itemLoading</title>
@@ -194,15 +199,10 @@
 <path fill="#ffffff" stroke="black" stroke-width="2" d="M862,-932C862,-932 1236,-932 1236,-932 1242,-932 1248,-938 1248,-944 1248,-944 1248,-1002 1248,-1002 1248,-1008 1242,-1014 1236,-1014 1236,-1014 862,-1014 862,-1014 856,-1014 850,-1008 850,-1002 850,-1002 850,-944 850,-944 850,-938 856,-932 862,-932"/>
 <text text-anchor="middle" x="1049" y="-1002.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemError</text>
 </g>
-<g id="clust39" class="cluster">
-<title>cluster_src/app/routes/list/myLocationItem/myLocationSuccess/itemSuccess</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M854,-816C854,-816 1222.5,-816 1222.5,-816 1228.5,-816 1234.5,-822 1234.5,-828 1234.5,-828 1234.5,-886 1234.5,-886 1234.5,-892 1228.5,-898 1222.5,-898 1222.5,-898 854,-898 854,-898 848,-898 842,-892 842,-886 842,-886 842,-828 842,-828 842,-822 848,-816 854,-816"/>
-<text text-anchor="middle" x="1038.25" y="-886.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">itemSuccess</text>
-</g>
-<g id="clust35" class="cluster">
-<title>cluster_src/app/routes/list/myLocationItem/myLocationLoading</title>
-<path fill="#ffffff" stroke="black" stroke-width="2" d="M623.5,-1254C623.5,-1254 1015.5,-1254 1015.5,-1254 1021.5,-1254 1027.5,-1260 1027.5,-1266 1027.5,-1266 1027.5,-1324 1027.5,-1324 1027.5,-1330 1021.5,-1336 1015.5,-1336 1015.5,-1336 623.5,-1336 623.5,-1336 617.5,-1336 611.5,-1330 611.5,-1324 611.5,-1324 611.5,-1266 611.5,-1266 611.5,-1260 617.5,-1254 623.5,-1254"/>
-<text text-anchor="middle" x="819.5" y="-1324.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationLoading</text>
+<g id="clust34" class="cluster">
+<title>cluster_src/app/routes/list/myLocationItem/myLocationError</title>
+<path fill="#ffffff" stroke="black" stroke-width="2" d="M630,-1164C630,-1164 1014.5,-1164 1014.5,-1164 1020.5,-1164 1026.5,-1170 1026.5,-1176 1026.5,-1176 1026.5,-1234 1026.5,-1234 1026.5,-1240 1020.5,-1246 1014.5,-1246 1014.5,-1246 630,-1246 630,-1246 624,-1246 618,-1240 618,-1234 618,-1234 618,-1176 618,-1176 618,-1170 624,-1164 630,-1164"/>
+<text text-anchor="middle" x="822.25" y="-1234.8" font-family="Helvetica,sans-Serif" font-weight="bold" font-size="9.00">myLocationError</text>
 </g>
 <g id="clust40" class="cluster">
 <title>cluster_src/app/utils</title>
@@ -833,8 +833,8 @@
 <g id="node41" class="node">
 <title>src/app/infrastructure/model/RequestState.ts</title>
 <g id="a_node41"><a xlink:href="src/app/infrastructure/model/RequestState.ts" xlink:title="RequestState.ts">
-<path fill="#ccffcc" stroke="black" d="M1449,-182C1449,-182 1378,-182 1378,-182 1375,-182 1372,-179 1372,-176 1372,-176 1372,-170 1372,-170 1372,-167 1375,-164 1378,-164 1378,-164 1449,-164 1449,-164 1452,-164 1455,-167 1455,-170 1455,-170 1455,-176 1455,-176 1455,-179 1452,-182 1449,-182"/>
-<text text-anchor="start" x="1380" y="-170.8" font-family="Helvetica,sans-Serif" font-size="9.00">RequestState.ts</text>
+<path fill="#ccffcc" stroke="black" d="M1449,-272C1449,-272 1378,-272 1378,-272 1375,-272 1372,-269 1372,-266 1372,-266 1372,-260 1372,-260 1372,-257 1375,-254 1378,-254 1378,-254 1449,-254 1449,-254 1452,-254 1455,-257 1455,-260 1455,-260 1455,-266 1455,-266 1455,-269 1452,-272 1449,-272"/>
+<text text-anchor="start" x="1380" y="-260.8" font-family="Helvetica,sans-Serif" font-size="9.00">RequestState.ts</text>
 </a>
 </g>
 </g>
@@ -842,8 +842,8 @@
 <g id="node42" class="node">
 <title>src/app/infrastructure/weather/FetchWeatherContext.ts</title>
 <g id="a_node42"><a xlink:href="src/app/infrastructure/weather/FetchWeatherContext.ts" xlink:title="FetchWeatherContext.ts">
-<path fill="#ddfeff" stroke="black" d="M1679,-272C1679,-272 1577,-272 1577,-272 1574,-272 1571,-269 1571,-266 1571,-266 1571,-260 1571,-260 1571,-257 1574,-254 1577,-254 1577,-254 1679,-254 1679,-254 1682,-254 1685,-257 1685,-260 1685,-260 1685,-266 1685,-266 1685,-269 1682,-272 1679,-272"/>
-<text text-anchor="start" x="1579" y="-260.8" font-family="Helvetica,sans-Serif" font-size="9.00">FetchWeatherContext.ts</text>
+<path fill="#ddfeff" stroke="black" d="M1679,-212C1679,-212 1577,-212 1577,-212 1574,-212 1571,-209 1571,-206 1571,-206 1571,-200 1571,-200 1571,-197 1574,-194 1577,-194 1577,-194 1679,-194 1679,-194 1682,-194 1685,-197 1685,-200 1685,-200 1685,-206 1685,-206 1685,-209 1682,-212 1679,-212"/>
+<text text-anchor="start" x="1579" y="-200.8" font-family="Helvetica,sans-Serif" font-size="9.00">FetchWeatherContext.ts</text>
 </a>
 </g>
 </g>
@@ -851,67 +851,67 @@
 <g id="node43" class="node">
 <title>src/app/infrastructure/weather/FetchWeatherProvider.tsx</title>
 <g id="a_node43"><a xlink:href="src/app/infrastructure/weather/FetchWeatherProvider.tsx" xlink:title="FetchWeatherProvider.tsx">
-<path fill="#bbfeff" stroke="black" d="M1468,-242C1468,-242 1359,-242 1359,-242 1356,-242 1353,-239 1353,-236 1353,-236 1353,-230 1353,-230 1353,-227 1356,-224 1359,-224 1359,-224 1468,-224 1468,-224 1471,-224 1474,-227 1474,-230 1474,-230 1474,-236 1474,-236 1474,-239 1471,-242 1468,-242"/>
-<text text-anchor="start" x="1361" y="-230.8" font-family="Helvetica,sans-Serif" font-size="9.00">FetchWeatherProvider.tsx</text>
+<path fill="#bbfeff" stroke="black" d="M1468,-182C1468,-182 1359,-182 1359,-182 1356,-182 1353,-179 1353,-176 1353,-176 1353,-170 1353,-170 1353,-167 1356,-164 1359,-164 1359,-164 1468,-164 1468,-164 1471,-164 1474,-167 1474,-170 1474,-170 1474,-176 1474,-176 1474,-179 1471,-182 1468,-182"/>
+<text text-anchor="start" x="1361" y="-170.8" font-family="Helvetica,sans-Serif" font-size="9.00">FetchWeatherProvider.tsx</text>
 </a>
 </g>
 </g>
 <!-- src/app/infrastructure/weather/FetchWeatherProvider.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherContext.ts -->
 <g id="edge21" class="edge">
 <title>src/app/infrastructure/weather/FetchWeatherProvider.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1474.15,-238.05C1499.19,-240.51 1528.59,-243.85 1555,-248 1563.51,-249.34 1572.53,-251.01 1581.2,-252.75"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1580.84,-254.82 1587.14,-253.96 1581.68,-250.7 1580.84,-254.82"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1474.15,-178.05C1499.19,-180.51 1528.59,-183.85 1555,-188 1563.51,-189.34 1572.53,-191.01 1581.2,-192.75"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1580.84,-194.82 1587.14,-193.96 1581.68,-190.7 1580.84,-194.82"/>
 </g>
 <!-- src/app/infrastructure/weather/useFetchWeatherInit.ts -->
 <g id="node44" class="node">
 <title>src/app/infrastructure/weather/useFetchWeatherInit.ts</title>
 <g id="a_node44"><a xlink:href="src/app/infrastructure/weather/useFetchWeatherInit.ts" xlink:title="useFetchWeatherInit.ts">
-<path fill="#ddfeff" stroke="black" d="M1677.5,-242C1677.5,-242 1578.5,-242 1578.5,-242 1575.5,-242 1572.5,-239 1572.5,-236 1572.5,-236 1572.5,-230 1572.5,-230 1572.5,-227 1575.5,-224 1578.5,-224 1578.5,-224 1677.5,-224 1677.5,-224 1680.5,-224 1683.5,-227 1683.5,-230 1683.5,-230 1683.5,-236 1683.5,-236 1683.5,-239 1680.5,-242 1677.5,-242"/>
-<text text-anchor="start" x="1580.5" y="-230.8" font-family="Helvetica,sans-Serif" font-size="9.00">useFetchWeatherInit.ts</text>
+<path fill="#ddfeff" stroke="black" d="M1677.5,-182C1677.5,-182 1578.5,-182 1578.5,-182 1575.5,-182 1572.5,-179 1572.5,-176 1572.5,-176 1572.5,-170 1572.5,-170 1572.5,-167 1575.5,-164 1578.5,-164 1578.5,-164 1677.5,-164 1677.5,-164 1680.5,-164 1683.5,-167 1683.5,-170 1683.5,-170 1683.5,-176 1683.5,-176 1683.5,-179 1680.5,-182 1677.5,-182"/>
+<text text-anchor="start" x="1580.5" y="-170.8" font-family="Helvetica,sans-Serif" font-size="9.00">useFetchWeatherInit.ts</text>
 </a>
 </g>
 </g>
 <!-- src/app/infrastructure/weather/FetchWeatherProvider.tsx&#45;&gt;src/app/infrastructure/weather/useFetchWeatherInit.ts -->
 <g id="edge22" class="edge">
 <title>src/app/infrastructure/weather/FetchWeatherProvider.tsx&#45;&gt;src/app/infrastructure/weather/useFetchWeatherInit.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1474.26,-233C1503.02,-233 1537.45,-233 1566.34,-233"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1566.41,-235.1 1572.41,-233 1566.41,-230.9 1566.41,-235.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1474.26,-173C1503.02,-173 1537.45,-173 1566.34,-173"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1566.41,-175.1 1572.41,-173 1566.41,-170.9 1566.41,-175.1"/>
 </g>
 <!-- src/app/infrastructure/weather/fetchWeather.ts -->
 <g id="node45" class="node">
 <title>src/app/infrastructure/weather/fetchWeather.ts</title>
 <g id="a_node45"><a xlink:href="src/app/infrastructure/weather/fetchWeather.ts" xlink:title="fetchWeather.ts">
-<path fill="#ddfeff" stroke="black" d="M1775,-242C1775,-242 1707,-242 1707,-242 1704,-242 1701,-239 1701,-236 1701,-236 1701,-230 1701,-230 1701,-227 1704,-224 1707,-224 1707,-224 1775,-224 1775,-224 1778,-224 1781,-227 1781,-230 1781,-230 1781,-236 1781,-236 1781,-239 1778,-242 1775,-242"/>
-<text text-anchor="start" x="1709" y="-230.8" font-family="Helvetica,sans-Serif" font-size="9.00">fetchWeather.ts</text>
+<path fill="#ddfeff" stroke="black" d="M1775,-182C1775,-182 1707,-182 1707,-182 1704,-182 1701,-179 1701,-176 1701,-176 1701,-170 1701,-170 1701,-167 1704,-164 1707,-164 1707,-164 1775,-164 1775,-164 1778,-164 1781,-167 1781,-170 1781,-170 1781,-176 1781,-176 1781,-179 1778,-182 1775,-182"/>
+<text text-anchor="start" x="1709" y="-170.8" font-family="Helvetica,sans-Serif" font-size="9.00">fetchWeather.ts</text>
 </a>
 </g>
 </g>
 <!-- src/app/infrastructure/weather/useFetchWeatherInit.ts&#45;&gt;src/app/infrastructure/weather/fetchWeather.ts -->
 <g id="edge25" class="edge">
 <title>src/app/infrastructure/weather/useFetchWeatherInit.ts&#45;&gt;src/app/infrastructure/weather/fetchWeather.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1683.52,-233C1687.25,-233 1690.98,-233 1694.64,-233"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1694.75,-235.1 1700.75,-233 1694.75,-230.9 1694.75,-235.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1683.52,-173C1687.25,-173 1690.98,-173 1694.64,-173"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1694.75,-175.1 1700.75,-173 1694.75,-170.9 1694.75,-175.1"/>
 </g>
 <!-- src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="node46" class="node">
 <title>src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
 <g id="a_node46"><a xlink:href="src/app/infrastructure/weather/useFetchWeatherContext.ts" xlink:title="useFetchWeatherContext.ts">
-<path fill="#ddfeff" stroke="black" d="M1472.5,-272C1472.5,-272 1354.5,-272 1354.5,-272 1351.5,-272 1348.5,-269 1348.5,-266 1348.5,-266 1348.5,-260 1348.5,-260 1348.5,-257 1351.5,-254 1354.5,-254 1354.5,-254 1472.5,-254 1472.5,-254 1475.5,-254 1478.5,-257 1478.5,-260 1478.5,-260 1478.5,-266 1478.5,-266 1478.5,-269 1475.5,-272 1472.5,-272"/>
-<text text-anchor="start" x="1356.5" y="-260.8" font-family="Helvetica,sans-Serif" font-size="9.00">useFetchWeatherContext.ts</text>
+<path fill="#ddfeff" stroke="black" d="M1472.5,-212C1472.5,-212 1354.5,-212 1354.5,-212 1351.5,-212 1348.5,-209 1348.5,-206 1348.5,-206 1348.5,-200 1348.5,-200 1348.5,-197 1351.5,-194 1354.5,-194 1354.5,-194 1472.5,-194 1472.5,-194 1475.5,-194 1478.5,-197 1478.5,-200 1478.5,-200 1478.5,-206 1478.5,-206 1478.5,-209 1475.5,-212 1472.5,-212"/>
+<text text-anchor="start" x="1356.5" y="-200.8" font-family="Helvetica,sans-Serif" font-size="9.00">useFetchWeatherContext.ts</text>
 </a>
 </g>
 </g>
 <!-- src/app/infrastructure/weather/useFetchWeatherContext.ts&#45;&gt;src/app/utils/assertions/forceNonNullable.ts -->
 <g id="edge23" class="edge">
 <title>src/app/infrastructure/weather/useFetchWeatherContext.ts&#45;&gt;src/app/utils/assertions/forceNonNullable.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1434.09,-272.1C1461.27,-284.75 1511.96,-308.43 1555,-329 1570.91,-336.6 1588.74,-345.27 1602.67,-352.07"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1602.07,-354.12 1608.39,-354.87 1603.92,-350.35 1602.07,-354.12"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1478.6,-210.75C1504.36,-216.39 1533.09,-226.15 1555,-243 1591.44,-271.03 1613.2,-323.18 1622.18,-348.88"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1620.27,-349.8 1624.19,-354.81 1624.25,-348.46 1620.27,-349.8"/>
 </g>
 <!-- src/app/infrastructure/weather/useFetchWeatherContext.ts&#45;&gt;src/app/infrastructure/weather/FetchWeatherContext.ts -->
 <g id="edge24" class="edge">
 <title>src/app/infrastructure/weather/useFetchWeatherContext.ts&#45;&gt;src/app/infrastructure/weather/FetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1478.55,-263C1505.81,-263 1537.51,-263 1564.59,-263"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1564.66,-265.1 1570.66,-263 1564.66,-260.9 1564.66,-265.1"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1478.55,-203C1505.81,-203 1537.51,-203 1564.59,-203"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1564.66,-205.1 1570.66,-203 1564.66,-200.9 1564.66,-205.1"/>
 </g>
 <!-- src/app/navigator/geolocation/models/Position.ts -->
 <g id="node49" class="node">
@@ -1054,8 +1054,8 @@
 <!-- src/app/routes/list/item/ItemProvider.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherProvider.tsx -->
 <g id="edge43" class="edge">
 <title>src/app/routes/list/item/ItemProvider.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherProvider.tsx</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1146.61,-391.67C1160.83,-364.03 1206.98,-282.38 1272,-248 1294.59,-236.05 1322.06,-231.35 1346.7,-229.96"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1347,-232.05 1352.9,-229.68 1346.81,-227.86 1347,-232.05"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1147.57,-391.86C1172.39,-351.13 1271.68,-188.2 1272,-188 1293.88,-174.15 1321.6,-169.17 1346.63,-168.1"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1346.99,-170.19 1352.93,-167.91 1346.87,-165.99 1346.99,-170.19"/>
 </g>
 <!-- src/app/routes/list/item/context/ItemContext.ts -->
 <g id="node66" class="node">
@@ -1075,8 +1075,8 @@
 <!-- src/app/routes/list/myLocationItem/MyLocationItem.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherProvider.tsx -->
 <g id="edge65" class="edge">
 <title>src/app/routes/list/myLocationItem/MyLocationItem.tsx&#45;&gt;src/app/infrastructure/weather/FetchWeatherProvider.tsx</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M548.55,-781.97C565.06,-773.49 587.13,-759.09 597.5,-739 615.34,-704.43 594.02,-426.01 606,-389 655.32,-236.65 668.29,-166.58 810,-92 988.56,1.98 1116.61,45.81 1264,-92 1283.36,-110.1 1254.1,-191.45 1272,-211 1290.68,-231.4 1319.91,-238.16 1346.89,-239.31"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1346.91,-241.41 1352.97,-239.48 1347.03,-237.21 1346.91,-241.41"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M548.55,-781.97C565.06,-773.49 587.13,-759.09 597.5,-739 615.34,-704.43 593.99,-426 606,-389 655.33,-237.03 668.56,-167.3 810,-93 988.63,0.84 1068.35,-43.65 1264,-93 1315.91,-106.09 1369.41,-141.28 1395.76,-160.33"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1394.57,-162.07 1400.66,-163.92 1397.05,-158.68 1394.57,-162.07"/>
 </g>
 <!-- src/app/routes/list/myLocationItem/myLocationError/MyLocationError.tsx -->
 <g id="node77" class="node">
@@ -1258,8 +1258,8 @@
 <!-- src/app/routes/list/item/useWeatherListItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge62" class="edge">
 <title>src/app/routes/list/item/useWeatherListItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M776.93,-670.46C784.56,-667.53 791.51,-663.21 797,-657 817.17,-634.18 788.21,-130.28 810,-109 828.05,-91.38 1245.66,-91.69 1264,-109 1286.5,-130.24 1250.66,-225.59 1272,-248 1293.8,-270.89 1329.24,-274.54 1359.07,-272.52"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1359.54,-274.58 1365.35,-272 1359.19,-270.4 1359.54,-274.58"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M776.93,-670.46C784.56,-667.53 791.51,-663.21 797,-657 817.17,-634.18 788.21,-130.28 810,-109 828.05,-91.38 1245.29,-92.09 1264,-109 1277.09,-120.83 1259.56,-175.49 1272,-188 1293.32,-209.43 1326.67,-213.71 1355.53,-212.38"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1355.75,-214.47 1361.61,-212.01 1355.5,-210.27 1355.75,-214.47"/>
 </g>
 <!-- src/app/routes/list/item/useWeatherRequestStatePresenter.ts&#45;&gt;src/app/domains/weather/list/item/WeatherRequestStatePresenter.ts -->
 <g id="edge63" class="edge">
@@ -1270,8 +1270,8 @@
 <!-- src/app/routes/list/item/useWeatherRequestStatePresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge64" class="edge">
 <title>src/app/routes/list/item/useWeatherRequestStatePresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M788.12,-693.7C791.36,-691.52 794.35,-688.97 797,-686 818.99,-661.35 789.47,-414.88 810,-389 875.49,-306.46 1197.57,-276.32 1342.09,-266.83"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1342.57,-268.9 1348.42,-266.42 1342.3,-264.71 1342.57,-268.9"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M788.12,-693.7C791.36,-691.52 794.35,-688.97 797,-686 818.99,-661.35 789.9,-415.21 810,-389 876.87,-301.8 1209.41,-236.98 1349.8,-213.06"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1350.37,-215.1 1355.93,-212.02 1349.66,-210.95 1350.37,-215.1"/>
 </g>
 <!-- src/app/routes/list/item/itemError/ItemError.module.css.d.ts -->
 <g id="node68" class="node">
@@ -1360,8 +1360,8 @@
 <!-- src/app/routes/list/item/itemSuccess/useWeatherSuccessItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge56" class="edge">
 <title>src/app/routes/list/item/itemSuccess/useWeatherSuccessItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1005.27,-438.32C1014.09,-435.18 1022.27,-430.58 1029,-424 1055.06,-398.5 1015.34,-367.87 1042,-343 1078.22,-309.21 1215.85,-334.63 1264,-323 1310.12,-311.86 1360.73,-288.92 1389.36,-274.85"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1390.34,-276.71 1394.78,-272.16 1388.47,-272.95 1390.34,-276.71"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1005.27,-438.32C1014.09,-435.18 1022.27,-430.58 1029,-424 1055.06,-398.5 1015.34,-367.87 1042,-343 1078.22,-309.21 1228.8,-357.85 1264,-323 1276.7,-310.43 1260.54,-256.7 1272,-243 1289.25,-222.38 1316.3,-211.98 1342.08,-206.87"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1342.73,-208.88 1348.25,-205.74 1341.97,-204.75 1342.73,-208.88"/>
 </g>
 <!-- src/app/routes/list/item/itemSuccess/useWeatherSuccessItemPresenter.ts&#45;&gt;src/app/routes/list/item/useItemContext.ts -->
 <g id="edge58" class="edge">
@@ -1702,8 +1702,8 @@
 <!-- src/app/routes/list/myLocationItem/myLocationSuccess/itemSuccess/useWeatherSuccessItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge86" class="edge">
 <title>src/app/routes/list/myLocationItem/myLocationSuccess/itemSuccess/useWeatherSuccessItemPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1163.08,-823.96C1191.91,-810.32 1242.48,-781.45 1264,-739 1280.83,-705.79 1257.37,-438.24 1272,-404 1297.28,-344.82 1360.13,-297.13 1392.51,-275.52"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1393.95,-277.09 1397.81,-272.04 1391.65,-273.58 1393.95,-277.09"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1163.13,-823.98C1192.01,-810.37 1242.65,-781.54 1264,-739 1276.36,-714.37 1255.22,-264.86 1272,-243 1288.66,-221.31 1316.21,-210.79 1342.53,-205.89"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1342.92,-207.95 1348.47,-204.87 1342.21,-203.81 1342.92,-207.95"/>
 </g>
 <!-- src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherAsyncListMyLocationPresenter.ts&#45;&gt;src/app/domains/weather/list/myLocation/request/WeatherAsyncMyLocationPresenter.ts -->
 <g id="edge93" class="edge">
@@ -1714,8 +1714,8 @@
 <!-- src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherAsyncListMyLocationPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge94" class="edge">
 <title>src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherAsyncListMyLocationPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1020.63,-908.44C1023.65,-906.29 1026.46,-903.82 1029,-901 1048.72,-879.12 1022.54,-393.11 1042,-371 1074.97,-333.53 1216.43,-352.09 1264,-337 1312.65,-321.57 1365.09,-292.05 1392.78,-275.33"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1393.94,-277.08 1397.97,-272.17 1391.76,-273.5 1393.94,-277.08"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1020.63,-908.44C1023.65,-906.29 1026.46,-903.82 1029,-901 1048.72,-879.12 1022.54,-393.11 1042,-371 1107.94,-296.07 1195.82,-409.91 1264,-337 1278.32,-321.69 1258.67,-259.18 1272,-243 1289.17,-222.16 1316.36,-211.74 1342.26,-206.67"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1342.93,-208.68 1348.46,-205.55 1342.19,-204.55 1342.93,-208.68"/>
 </g>
 <!-- src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherRequestStateMyLocationPresenter.ts&#45;&gt;src/app/domains/weather/list/myLocation/request/WeatherRequestStateMyLocationPresenter.ts -->
 <g id="edge95" class="edge">
@@ -1726,8 +1726,8 @@
 <!-- src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherRequestStateMyLocationPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts -->
 <g id="edge96" class="edge">
 <title>src/app/routes/list/myLocationItem/myLocationSuccess/useWeatherRequestStateMyLocationPresenter.ts&#45;&gt;src/app/infrastructure/weather/useFetchWeatherContext.ts</title>
-<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1024.16,-1111.72C1025.86,-1110.27 1027.48,-1108.7 1029,-1107 1055.91,-1076.94 1014.72,-410.72 1042,-381 1075.54,-344.47 1219.22,-379.32 1264,-358 1268.54,-355.84 1268.06,-353.12 1272,-350 1310.58,-319.44 1360.55,-290.77 1389.32,-275.18"/>
-<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1390.49,-276.93 1394.78,-272.24 1388.5,-273.23 1390.49,-276.93"/>
+<path fill="none" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" d="M1024.16,-1111.72C1025.86,-1110.27 1027.48,-1108.7 1029,-1107 1055.91,-1076.94 1014.72,-410.72 1042,-381 1075.54,-344.47 1229.53,-393.66 1264,-358 1281.81,-339.58 1255.86,-262.9 1272,-243 1289.01,-222.03 1316.17,-211.58 1342.1,-206.53"/>
+<polygon fill="#000000" fill-opacity="0.200000" stroke="#000000" stroke-width="2" stroke-opacity="0.200000" points="1342.77,-208.55 1348.3,-205.42 1342.03,-204.41 1342.77,-208.55"/>
 </g>
 <!-- src/index.tsx -->
 <g id="node102" class="node">

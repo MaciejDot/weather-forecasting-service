@@ -33,7 +33,7 @@ export default async function fetchWeather(query: FetchQuery, signal: AbortSigna
     appid: process.env.REACT_APP_OPENWEATHER_API_KEY as string,
   }).toString();
   const response = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?${search}`,
+    `https://api.openweathermap.org/data/2.5/weather?${search}`,
     { signal },
   );
   const json = await response.json();

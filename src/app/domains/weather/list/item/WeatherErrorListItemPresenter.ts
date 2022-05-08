@@ -4,7 +4,7 @@ export default function WeatherErrorListItemPresenter(
   return {
     getName,
     getErrorMessage,
-    getRefreshHref,
+    onRefreshClick,
     getRefreshMessage,
   };
 
@@ -20,7 +20,7 @@ export default function WeatherErrorListItemPresenter(
     return 'Click to refresh.';
   }
 
-  function getRefreshHref() {
-    return '#';
+  function onRefreshClick() {
+    window.location.reload();
   }
 }
