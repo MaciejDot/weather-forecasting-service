@@ -1,5 +1,4 @@
 name: deploy
-
 on:
   push:
     branches:
@@ -7,21 +6,30 @@ on:
 
 jobs:
   build:
-
+    name: build & deploy
     runs-on: ubuntu-latest
-
     steps:
     
     - name: Checkout
       uses: actions/checkout@v1
 
-    - name: Build
-      run: |
-        npm install
-        npm run-script build
-        npm run-script test
+    - name: install
+      uses: borales/actions-yarn@v2.3.0
+      with:
+          cmd: install
+
+    - name: build
+      uses: borales/actions-yarn@v2.3.0
+      with:
+          cmd: build
       env:
         REACT_APP_OPENWEATHER_API_KEY: ${{ secrets.REACT_APP_OPENWEATHER_API_KEY }}
+   
+    - name: test:ci 
+      uses: borales/actions-yarn@v2.3.0
+      with:
+          cmd: test:ci
+      
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
