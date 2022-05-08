@@ -21,14 +21,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "test:unit & yarn test:dependencies & yarn lint",
+    "test": "yarn test:unit & yarn test:dependencies & yarn lint",
     "eject": "react-scripts eject",
     "lint": "eslint ./src",
     "generate:css": "tcm src && yarn lint:fix",
     "lint:fix": "eslint ./src --fix",
     "test:dependencies": "dependency-cruise --config .dependency-cruiser.js src",
-    "test:unit": "react-scripts test",
-    "test:ci": "generate:css && test",
+    "test:unit": "jest test",
+    "test:ci": "yarn generate:css && yarn test",
     "build:dependencies": "depcruise --include-only \"^src\" --output-type dot src | dot -T svg > dependencygraph.svg"
   },
   "browserslist": {
@@ -53,6 +53,8 @@
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "ts-jest": "^28.0.2",
+    "ts-node": "^10.7.0",
     "typed-css-modules": "^0.7.2"
   }
 }
