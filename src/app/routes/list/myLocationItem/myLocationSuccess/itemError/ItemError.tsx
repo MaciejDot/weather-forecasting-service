@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useWeatherErrorListMyLocationPresenter from './useWeatherErrorListMyLocationPresenter';
 import styles from './ItemError.module.css';
 
@@ -6,6 +7,8 @@ export default function ItemError() {
   const {
     getName,
     getErrorMessage,
+    getRefreshHref,
+    getRefreshMessage,
   } = useWeatherErrorListMyLocationPresenter();
   return (
     <div className={styles.item}>
@@ -16,6 +19,8 @@ export default function ItemError() {
       </div>
       <p className={styles.errorMessage}>
         {getErrorMessage()}
+        &nbsp;
+        <Link to={getRefreshHref()} className={styles.errorLink}>{getRefreshMessage()}</Link>
       </p>
     </div>
   );
